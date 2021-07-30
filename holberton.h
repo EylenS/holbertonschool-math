@@ -15,8 +15,8 @@
  */
 typedef struct comp
 {
-	float re;
-	float im; /*var holding real & imaginary part of type double*/
+	double re;
+	double im; /*var holding real & imaginary part of type double*/
 } complex;
 
 /*Prototypes*/
