@@ -7,17 +7,17 @@
 
 /*structs*/
 /**
- * struct complex - store data both real and imaginary numbers
+ * struct comp - store data both real and imaginary numbers
  * @re: real number
  * @im: imaginary number
  *
  * Return: The complex number
  */
-typedef struct complex
+typedef struct comp
 {
-	double re;
-	double im; /*var holding real & imaginary part of type double*/
-} c;
+	float re;
+	float im; /*var holding real & imaginary part of type double*/
+} complex;
 
 /*Prototypes*/
 void display_complex_number(complex c);
