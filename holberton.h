@@ -6,11 +6,18 @@
 #include <stdlib.h>
 
 /*structs*/
-typedef struct
+/**
+ * struct complex - store data both real and imaginary numbers
+ * @re: real number
+ * @im: imaginary number
+ *
+ * Return: The complex number
+ */
+typedef struct complex
 {
 	double re;
 	double im; /*var holding real & imaginary part of type double*/
-} complex;
+} c;
 
 /*Prototypes*/
 void display_complex_number(complex c);
