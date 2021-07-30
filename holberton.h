@@ -9,7 +9,7 @@
 typedef struct
 {
 	double re;
-	double im;
+	double im; /*var holding real & imaginary part of type double*/
 } complex;
 
 /*Prototypes*/
