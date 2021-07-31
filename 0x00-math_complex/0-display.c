@@ -8,6 +8,8 @@
  */
 void display_complex_number(complex c)
 {
+	if (c.im == 0 && c.re == 0)
+		return;
 	if (c.im == 0) /* num im = 0 */
 		printf("%f\n", c.re);
 	else if (c.re == 0) /* Only print imagynary number*/
@@ -15,8 +17,10 @@ void display_complex_number(complex c)
 	else if (c.im == -1) /*print only im*/
 		printf("%f - i\n", c.re);
 	else if (c.im < -1) /* imaginary is a negative number */
+	{
 		c.im = c.im * -1;
 		printf("%f - %fi\n", c.re, c.im);
+	}
 	else if (c.im == 1)
 		printf("%f + i\n", c.re);
 	else
