@@ -24,4 +24,7 @@ typedef struct comp
 void display_complex_number(complex c);
 complex conjugate(complex c);
 double modulus(complex c);
+double argument(complex c);
+
+#define PI 3.14159265
 #endif
