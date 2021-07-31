@@ -4,6 +4,7 @@
 /*Libraries*/
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 /*structs*/
 /**
@@ -22,4 +23,5 @@ typedef struct comp
 /*Prototypes*/
 void display_complex_number(complex c);
 complex conjugate(complex c);
+double modulus(complex c);
 #endif
