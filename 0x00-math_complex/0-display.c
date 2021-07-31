@@ -8,8 +8,6 @@
  */
 void display_complex_number(complex c)
 {
-	if (c.im == 0 && c.re == 0)
-		return;
 	if (c.im == 0) /* num im = 0 */
 		printf("%f\n", c.re);
 	else if (c.im == -1) /*print only im*/
