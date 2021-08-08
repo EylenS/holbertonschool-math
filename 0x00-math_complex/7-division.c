@@ -10,7 +10,7 @@ void division(complex c1, complex c2, complex *c3)
 {
 	double a, b, d;
 
-	d = (c2.re * c2.re) + (c2.im * c2.im); /* denominator */
+	d = pow(c2.re, 2.0) + pow(c2.im, 2.0); /* denominator */
 	a = ((c1.re * c2.re) + (c1.im * c2.im)) / d; /* real part */
 	b = ((c1.im * c2.re) - (c1.re * c2.im)) / d; /* imaginary part */
 	c3->re = a;
