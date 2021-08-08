@@ -1,10 +1,10 @@
 #include "holberton.h"
 
 /**
- * multiplication - Performs the mult. between complex numbers.
+ * division - Performs the div. between complex numbers.
  * @c1: First complex number.
  * @c2: Second complex number.
- * @c3: Complex number after the multiplication.
+ * @c3: Complex number after the division.
  */
 void division(complex c1, complex c2, complex *c3)
 {
